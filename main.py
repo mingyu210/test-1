@@ -15,4 +15,6 @@ class Model(BaseModel):
 @app.post("/send")
 def 작명(data:Model):
     print(data)
+    print("5")
     return '전송완료'
+
